@@ -4,6 +4,7 @@
 
 using namespace std;
 
+//what happens when the wrong letter is guessed
 void incorrect_guesses(vector<char> wrong, string answer)
 {
 	cout << "\nIncorrect Letters Guessed: " << endl;
@@ -20,6 +21,7 @@ void incorrect_guesses(vector<char> wrong, string answer)
 		cout << answer[i];
 	}
 }
+//message that will be displayed when the game ends
 
 void end(string answer, string secret_word)
 {

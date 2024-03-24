@@ -19,6 +19,8 @@ int main()
 	bool guess = false;
 	char letter;
 
+	//loop until the word is guessed or tries run out
+
 	while (answer != secret_word && misses < 5)
 	{
 		incorrect_guesses(wrong, answer);
