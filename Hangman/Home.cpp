@@ -11,9 +11,9 @@ int main()
 	cout << "**************************" << endl;
 	cout << "Try to guess the word before your tries run out!" << endl;
 
-	string secret_word = "something";
+	string secret_word = "grilledcheese";
 
-	string answer = "_________";
+	string answer = "_____________";
 	int misses = 0;
 	vector<char> wrong;
 	bool guess = false;
@@ -41,7 +41,7 @@ int main()
 		}
 		else
 		{
-			cout << "\nIncorrect. Once life has been lost" << endl;
+			cout << "\nIncorrect. One life has been lost" << endl;
 			wrong.push_back(letter);
 			misses++;
 		}

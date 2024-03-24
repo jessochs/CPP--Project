@@ -30,5 +30,6 @@ void end(string answer, string secret_word)
 	else
 	{
 		cout << "You failed at guessing the word!" << endl;
+		cout << "The secret word was: " << secret_word;
 	}
 }
