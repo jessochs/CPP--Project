@@ -4,8 +4,6 @@ This project is an example of a hangman game created with C++. There are many ot
 
 This project was created to become more familiar with C++. It started out as a calculator app, but that was a little too easy. The hangman app has more components and greater use of functions than the previous attempt at a calculator.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
 [Software Demo Video](https://youtu.be/0hLgKUmCw5I)
 
 # Development Environment
